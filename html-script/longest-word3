@@ -1,5 +1,7 @@
 #!/bin/bash
+
 # longest-word3 : поиск самой длинной строки в файле
+
 for i; do
     if [[ -r "$i" ]]; then
         max_word=
